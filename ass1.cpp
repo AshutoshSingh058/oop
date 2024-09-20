@@ -1,5 +1,25 @@
 // Here's the program with comments added to explain the constructors and other parts of the code:
 
+
+// ### Key Points in the Code:
+
+// 1. **Default Constructor (`complex()`)**:
+//    - This initializes a complex number to `0 + 0i`. It’s useful for creating complex number objects without providing initial values.
+
+// 2. **Overloaded Operators**:
+//    - The `operator+` and `operator*` functions are member functions that allow you to add and multiply complex numbers using the `+` and `*` operators, respectively.
+
+// 3. **Friend Functions**:
+//    - `operator>>` and `operator<<` are declared as friend functions. This allows them to access private members `x` and `y` of the `complex` class directly.
+//    - `operator>>` is used to read complex numbers from input.
+//    - `operator<<` is used to print complex numbers to the output.
+
+// 4. **Usage in `main` Function**:
+//    - Demonstrates the use of the default constructor, input, addition, multiplication, and output operations with complex numbers.
+// ''';
+
+
+
 #include<iostream>
 using namespace std;
 
@@ -84,19 +104,3 @@ int main() {
 
 
 
-// ### Key Points in the Code:
-
-// 1. **Default Constructor (`complex()`)**:
-//    - This initializes a complex number to `0 + 0i`. It’s useful for creating complex number objects without providing initial values.
-
-// 2. **Overloaded Operators**:
-//    - The `operator+` and `operator*` functions are member functions that allow you to add and multiply complex numbers using the `+` and `*` operators, respectively.
-
-// 3. **Friend Functions**:
-//    - `operator>>` and `operator<<` are declared as friend functions. This allows them to access private members `x` and `y` of the `complex` class directly.
-//    - `operator>>` is used to read complex numbers from input.
-//    - `operator<<` is used to print complex numbers to the output.
-
-// 4. **Usage in `main` Function**:
-//    - Demonstrates the use of the default constructor, input, addition, multiplication, and output operations with complex numbers.
-// '''
